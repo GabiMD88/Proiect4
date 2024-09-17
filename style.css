@@ -1,0 +1,68 @@
+.primul {
+display: flex;
+height: 100px;
+text-align: right;
+}
+.prime {
+    background-color: aquamarine;
+    width: 55px;
+}
+.prime1 {
+    background-color: pink;
+}
+.prime2 {
+    background-color: yellowgreen;
+}
+.prime3 {
+    background-color: palevioletred;
+}
+.prime4 {
+    background-color: coral;
+}
+.prime1, .prime2, .prime3, .prime4 {
+    width: 25px;
+}
+.doi {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.trei {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+.treii {
+    border: 2px solid black;
+    margin: 20px;
+    display: none;
+}
+.patru {
+    border: 2px solid black;
+    margin: 20px;
+    visibility: hidden;
+}
+.cinci {
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+}
+.sase {
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.sapte {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.opt {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+}
